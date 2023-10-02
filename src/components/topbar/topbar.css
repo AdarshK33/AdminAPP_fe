@@ -1,0 +1,170 @@
+
+.topbar{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    background: #fff;
+  }
+  .topleft{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .topright{
+    display: flex;
+    flex-grow: 99;
+    justify-content: end;
+    cursor: pointer;
+  }
+  .logo{
+    display:flex;
+    align-items: center;
+    margin: 0 12px;
+  }
+  .logo h3{
+    margin: 0;
+  }
+  
+  .logo img{
+    width:25px;
+    height: 25px;
+    margin-right: 3px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 20px;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .navimg{
+    transition: background 0.5s;
+  }
+  .navimg:hover{
+    background: #5E35B2;
+    content:url("/src/asset/img/navwhite.png");
+  }
+
+  .notimg{
+    transition: background 0.5s;
+  }
+
+  
+
+  .notimg:hover{
+    background: #5E35B2;
+    content:url("/src/asset/img/bellwhite.png");
+  }
+
+  .setimg{
+    content:url("/src/asset/img/settings.png");
+    transition: content 0.5s;
+  }
+
+  .profile:hover > .setimg{
+    content:url("/src/asset/img/settingwhite.png");
+  }
+  
+  .nav img{
+    width:20px;
+    background: #eee7f6;
+    padding: 7px;
+    border-radius: 12px;
+  }
+  
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3F2FD;
+    border-radius: 12px;
+    height: fit-content;
+    padding: 6px;
+    margin: 0 20px 0 0;
+    transition: background 0.5s;
+  }
+
+  .profile:hover img.setimg{
+    animation: spin 5000ms infinite;
+    -webkit-animation: spin 5000ms infinite;
+    -moz-animation: spin 5000ms infinite;
+  }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+  @-webkit-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+  @-moz-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+  
+  .profile:hover{
+    background: #509EF4;
+  }
+  
+  .profile img{
+    width: 20px;
+    height: 20px;
+    padding: 0 2px;
+  }
+  
+  .profileimg{
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileimg img{
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+  }
+  .activeNotification{
+    padding: 4px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 18px;
+    font-size: 10px;
+    font-family: 'Poppins-SemiBold';
+    color: white;
+    
+  }
+  .activeNotification p{
+    background: red;
+    border-radius: 180px;
+    padding: 3px 7px;
+  }
+  .profile-dropicon{
+    width:15px!important;
+    height:15px!important;
+    margin-right: 9px;
+  }
+  .logout-text{
+    color: #ff6060;
+  }
+  @media only screen and (max-width: 900px){
+    .logo{
+      display: none;
+    }
+  }
+  
+  

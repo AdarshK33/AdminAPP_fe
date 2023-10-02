@@ -1,0 +1,31 @@
+
+.fullDatePickerForProject{
+    display: flex;
+}
+.add-project-date-left{
+    flex: 1;
+    margin-right: 5px;
+}
+.add-project-date-right{
+    flex: 1;
+    margin-left: 5px;
+}
+.css-q8hpuo-MuiFormControl-root{
+    margin: 12px 0px 15px 0px !important;
+}
+.react-datepicker__input-container input{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1.5px solid #B6B6B6;
+    font-size: 16px;
+    padding-left: 10px;
+    color:#000000 ;
+}
+.react-datepicker__input-container input:hover{
+    border: 1.5px solid #000000;
+}
+.react-datepicker-ignore-onclickoutside{
+    border: 2px solid #1976D2;
+
+}

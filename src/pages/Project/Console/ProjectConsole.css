@@ -1,0 +1,119 @@
+.projectconsolemainheader{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+.addProjectbutton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.addProjectbutton p{
+    font-family: 'Poppins-SemiBold';
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 3px;
+}
+.addProjectbutton:hover{
+    color: #6333b0;
+}
+
+.addProjectbutton p::before,
+.addProjectbutton::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.addProjectbutton p::before {
+  background-color: #6333b0;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.addProjectbutton p::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  transform-origin: 100% 50%;
+  transform: translate3d(200%, 0, 0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  color: rgb(66, 66, 66);
+}
+
+.addProjectbutton:hover > p::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.addProjectbutton:hover > p::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.addProjectbutton p {
+    
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  .addProjectbutton:hover p {
+    transform: translate3d(-0%, 0, 0);
+  }
+
+
+
+.addProjectbutton img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.customDragContainer{
+    display: flex;
+    justify-content: space-around;
+    background:transparent;
+}
+.custDragColumn{
+    flex: 1;
+    border-radius: 20px;
+    margin: 2px;
+}
+.custDragItems{
+    border-radius: 20px;
+    box-shadow: -8px 12px 18px 0 #dadee8;
+}
+.custDragInnerItems {
+    display: flex;
+    justify-content: space-around;
+}
+.custDragColumnCont{
+    flex: 1;
+}
+.custDragColHead{
+    font-family: 'Poppins-SemiBold';
+    margin: 0 20px;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.877);
+}
+.custDragitemMain{
+    flex: 1;
+}
+.dragcreationTime p {
+    font-size: 11px;
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.466);
+}
+.dragcreationCont p{
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.644);
+}
+.dragcreationTo p {
+    font-size: 11px;
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.466);
+    text-align: end;
+}

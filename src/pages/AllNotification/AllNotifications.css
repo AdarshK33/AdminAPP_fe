@@ -1,0 +1,41 @@
+.all-notifications-heading{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.allnotifItems p{
+    color: #0009;;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.allnotifItems p:first-child{
+    font-family: 'Poppins-SemiBold';
+    margin-bottom: 0px;
+}
+
+.allnotifItems p:nth-child(2){
+    color: #74788d;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.allnotifItems hr {
+    /* border: 1px solid rgba(170, 170, 170, 0.349); */
+}
+.allnotifItems{
+    display: flex;
+    border-bottom: 0.5px solid rgba(102, 102, 102, 0.253);
+}
+.allnotifItemscontentImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.allnotifItemscontentImg img{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allNotifContainer hr{
+    background: rgba(0, 0, 0, 0.26);
+}

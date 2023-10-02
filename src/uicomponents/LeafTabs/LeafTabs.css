@@ -1,0 +1,58 @@
+.LeafTabContainerMain{
+    margin-bottom: 40px;
+}
+.LeafTabContainer{
+    margin: 10px 0;
+    margin-bottom: 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    overflow-x: hidden;
+}
+.LeafRows{
+    border: 1px solid rgba(0,0,0,.12);
+    border-bottom: 1px solid transparent;
+    color: rgb(66, 66, 66);
+    font-family: Poppins-SemiBold;
+    
+    border-top-left-radius: 7px;
+    border-top-right-radius: 60px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+.LeafRows p {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    font-size: 14px;
+}
+
+.selectedLeafRows{
+    background: #FAFAFA;
+}
+
+.LeafTabContainerTitle p{
+    font-size: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: end;
+    color: darkgray;
+}
+
+
+  .LeafTabContainer::-webkit-scrollbar:vertical {
+    display: none;
+  } 
+ .LeafTabContainer::-webkit-scrollbar:horizontal {
+    display: none;
+  }
+  .LeafRowsProjectId{
+    color: darkgray;
+    font-size: x-small;
+    font-family: 'Poppins';
+    margin: 0;
+  }

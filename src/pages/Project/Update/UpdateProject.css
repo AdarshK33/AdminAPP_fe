@@ -1,0 +1,23 @@
+.input{
+  border:0.5px solid rgba(0, 0, 0, 0.185);
+  border-radius: 7px;
+  padding: 10px;
+  display: flex;
+}
+.input input {
+  flex: 1;
+  margin-right: 20px;
+  border: 0px;
+  position: relative;
+}
+.input input:focus{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.input p {
+  margin: 0;
+}
+.rowUpdateProject{
+  display: flex;
+}

@@ -1,0 +1,66 @@
+.CustomModelMainContainer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 13;
+    left: 0;
+    top:0;
+    background: rgba(0,0,0,.4);
+}
+.CustomModelCenterContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    animation-name: CustomModelContainer;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+.CustomModelContainer{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    animation-name: example;
+    animation-duration: 0.5s;
+    z-index: 1;
+}
+
+.emptyspaceCustomContainer{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@keyframes CustomModelContainer{
+    0% {
+        height: 0px;
+    }
+    83% { 
+        height: 100%;
+    }
+    93% { 
+        height: 90%;
+    }
+    95% { 
+        height: 100%;
+    }
+    97% { 
+        height: 94%;
+    }
+    98% { 
+        height: 100%;
+    }
+    99% { 
+        height: 99%;
+    }
+    100% { 
+        height: 100%;
+    }
+}
+
+@keyframes example {
+    from {background-color: rgba(253, 253, 253, 0);}
+    to {background-color: white;}
+  }

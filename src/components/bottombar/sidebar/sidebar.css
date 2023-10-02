@@ -1,0 +1,42 @@
+.sidebar{
+    /* flex-grow: 1; */
+    display: flex;
+    padding-left: 8px;
+    position: relative;
+}
+
+.sidebarContainer{
+  width: max-content;
+  overflow-y: scroll;
+}
+
+
+.collapse {animation-timing-function: linear;}
+
+@keyframes mymove {
+  to {flex: 0;}
+}
+
+
+   /* width */
+.sidebarContaine::-webkit-scrollbar {
+    width: 0px;
+    background: #ffffff00;
+    border-radius: 50px;
+  }
+  
+  /* Track */
+  .sidebarContaine::-webkit-scrollbar-track {
+    background: #ffffff00; 
+    border-radius: 50px;
+  }
+   
+  /* Handle */
+  .sidebarContaine::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.096); 
+  }
+  
+  /* Handle on hover */
+  .sidebarContaine::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

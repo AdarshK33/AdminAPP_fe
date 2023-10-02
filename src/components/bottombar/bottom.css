@@ -1,0 +1,6 @@
+.bottom{
+    display: flex;
+    flex-grow: 1;
+    transition: all 2s;
+    overflow: hidden;
+   }

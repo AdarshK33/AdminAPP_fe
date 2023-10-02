@@ -1,0 +1,416 @@
+.dash-main {
+    width: 100%;
+}
+
+.dash-container {
+    display: flex;
+}
+
+.pending-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.dash-left-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-bottom: 30px;
+}
+
+.dash-project {
+    background-color: #5E35B2;
+    border-radius: 12px;
+}
+
+.dash-clients {
+    background-color: #4588E5;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.dash-right-sec {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.pending-project {
+    border-radius: 12px;
+    background-color: #4588E5;
+    padding: 10px 0px;
+}
+
+.pending-tasks {
+    border-radius: 12px;
+    padding: 10px 0px;
+    background-color: #4588E5;
+}
+
+.project-count {
+    width: 100%;
+    height: 455px;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.project-count-top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.dash-bottom-sec {
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.bottom-left-sec {
+    width: 100%;
+    background-color: white;
+    border-radius: 18px;
+    margin-right: 20px;
+    height: 455px;
+    overflow-y: scroll;
+}
+
+.dash-project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-clients{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-project h2 {
+    display: inline-block;
+    margin: 0px;
+    color: white;
+}
+
+.dash-project p {
+    display: inline;
+    color: white;
+}
+
+.dash-project img {
+    width: 45px;
+    margin: 10px;
+}
+
+.dash-clients img{
+    width: 45px;
+    margin: 10px;
+}
+
+.pending-project img {
+    width: 40%;
+}
+
+
+.pending-project {
+    display: flex;
+}
+
+.pending-right-sec {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+    margin-left: 9px;
+}
+
+.pending-right-sec-two {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 9px;
+}
+
+.pending-tasks {
+    display: flex;
+}
+
+.dfaf {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 0px 13px 0px;
+    border-bottom: 1px solid #D2D2D2 ;
+
+}
+
+
+.dfaf span:nth-child(2) {
+    background: #def3fd;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.project-count-bottom {
+    margin: 5px;
+    padding: 5px 5px 0 0;
+}
+
+.projects-card1 {
+    width: 100%;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    padding-bottom: 15px;
+}
+.projects-table-head{
+    /* padding: 15px; */
+    padding-bottom: 15px;
+}
+
+.projects-table-head span{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.projects-main {
+    margin: 5%;
+}
+
+.projects-table {
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+    padding: 10px;
+}
+.projects-table:nth-child(even) {
+    background: #f8f8f8;
+}
+.projects-table span{
+    font-size: 14px;
+}
+.projects-table-main{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    background: #4588E5;
+    padding: 10px;
+    color: #fff;
+}
+.projects-table-main span {
+    font-weight: 800;
+    width: 25%;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.projects-table span{
+    width: 25%;
+}
+
+.dash-clients h2 {
+    display: inline-block;
+    margin: 0px;
+    color: white;
+}
+
+.dash-clients p {
+    display: inline;
+    margin: 0px;
+    color: white;
+}
+.pending-img img{
+    width: 30px;
+    padding: 10px;
+}
+.pending-img-two img{
+    width: 30px;
+    padding: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .dash-clients h2, .dash-project h2{font-size: 34px;}
+    .pending-main h3{font-size: 20px;}
+    .dash-left-sec {
+        flex-direction: row;
+    }
+    .dash-project {
+        width: 45%;
+    }
+    .dash-clients {
+        width: 45%;
+    }
+    .pending-main {
+        width: 30%;
+    }
+    .dash-bottom-sec{
+        flex-direction: row;
+    }
+    .projects-main{
+        margin: 2%;
+    }
+    .projects-table span {
+        font-size: 13px;
+    }
+    .projects-table-head span{
+        font-size: 16px;
+    }
+    .projects-table-head > span:last-child{
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .projects-table-main span{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .project-count{
+        width: 30%;
+        height: 100%;
+        padding: 10px;
+    }
+    .project-count-top{
+        padding: 0px;
+    }
+  
+}
+
+/* new css changes */
+
+.projects-card1{
+    background-color: white;
+    border: 1px solid rgba(144, 202, 249, 0.46);
+    padding: 24px;
+}
+.dash-project, .dash-clients, .pending-project, .pending-tasks{
+    position:relative;
+    overflow: hidden;
+    transition: all 1000ms linear 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+}
+:is(.dash-project, .dash-clients, .pending-project, .pending-tasks):hover{
+    box-shadow: rgb(32 40 45 / 8%) 0px 2px 14px 0px;
+}
+:is(.dash-clients, .dash-project)::before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: rgb(69, 39, 160);
+    border-radius: 50%;
+    bottom: -125px;
+    right: -15px;
+    opacity: 0.5;
+    transition: all 1000ms linear 0ms;
+}
+:is(.dash-clients, .dash-project):hover::before{
+    bottom: -155px;
+    right: -95px;
+    background: rgb(69, 39, 160);
+    opacity:.2;
+}
+:is(.dash-clients, .dash-project)::after {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: rgb(69, 39, 160);
+    border-radius: 50%;
+    bottom: -155px;
+    right: -95px;
+    transition: all 1000ms linear 0ms;
+}
+:is(.dash-clients, .dash-project):hover::after{
+    bottom: -125px;
+    right: -15px;
+    opacity: 0.5;   
+}
+:is(.dash-clients)::before,
+:is(.dash-clients)::after{background: rgb(21, 101, 192);}
+
+:is(.pending-project, .pending-tasks)::before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: linear-gradient(140.9deg, rgb(144, 202, 249) -14.02%, rgba(144, 202, 249, 0) 77.58%);
+    border-radius: 50%;
+    top: -160px;
+    right: -130px;
+    transition: all 1000ms linear 0ms;
+}
+:is(.pending-project, .pending-tasks):hover::before{
+    width: 200px;
+    height: 200px;
+}
+
+:is(.pending-project, .pending-tasks)::after {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background: linear-gradient(210.04deg, rgb(144, 202, 249) -50.94%, rgba(144, 202, 249, 0) 83.49%);
+    border-radius: 50%;
+    top: -30px;
+    right: -180px;
+    transition: all 1000ms linear 0ms;
+}
+:is(.pending-project, .pending-tasks):hover::after{
+    width: 200px;
+    height: 200px;
+}
+
+:is(.dash-clients, .dash-project) img{position: relative;}
+.profileimg{margin-right: 10px;}
+
+@media screen and (min-width: 768px) {
+    .projects-card1{padding: 24px;}
+    .projects-main {margin: 0px 6% 2% 0px; transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;}
+    .project-count {
+        border: 1px solid rgba(144, 202, 249, 0.46);
+        padding: 24px;
+        box-sizing: border-box;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+   :is(.projects-main, .project-count):hover {
+        box-shadow: rgb(32 40 45 / 8%) 0px 2px 14px 0px;
+    }
+    .dahboard-page .cardcontainer, .dahboard-page .bottom-left-sec{background-color: transparent!important;}
+    
+}
+
+@media screen and (max-width: 768px) {
+    .dash-clients {
+        margin-right: 0px;
+    }
+    .projects-card1 {
+        width: auto;
+        padding: 12px;
+    }
+    .projects-main {
+        margin: 0px 0px 5% 0px;
+    }
+    .dahboard-page .cardcontainer{padding: 20px; margin-bottom: 20px;}
+    :is(.dash-clients, .dash-project)::after {
+        bottom: -155px;
+        right: -135px;
+    }
+    :is(.dash-clients, .dash-project)::before{
+        bottom: -165px;
+        right: -15px;
+    }
+    .profileimg{margin-right: 7px;}
+}

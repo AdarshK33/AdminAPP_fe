@@ -1,0 +1,19 @@
+.rbc-toolbar button.rbc-active {
+    background-image: none;
+    box-shadow: none !important;
+    background: #673AB7 !important;
+    color: #ffffff !important;
+    font-family: 'Poppins' !important;
+    font-weight: 500 !important;
+}
+.rbc-toolbar button{
+    color: #949494 !important;
+    font-family: 'Poppins' !important;
+    font-weight: 500 !important;
+}
+.rbc-event, .rbc-day-slot .rbc-background-event{
+background: #EB2929 !important;
+}
+@media((max-width: 630px) and (min-width: 430px)){
+
+}

@@ -1,0 +1,27 @@
+.content{
+    background: #DEF3FD;
+    border-top-left-radius: 20px;
+    flex:1;
+    width: 100%;
+    transition: width 2s;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .cardcontainer{
+    background: #fff;
+    margin: 20px;
+    margin-bottom: 0;
+    flex: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    overflow: scroll;
+   }
+
+   .card{
+    text-align: start;
+    width: 100%;
+   }

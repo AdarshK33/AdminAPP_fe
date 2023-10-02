@@ -1,0 +1,116 @@
+
+  .search_custom_container{
+    margin: 0px 0px;
+  }
+  .search_custom_textField {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: #fff;
+  }
+
+
+  .search_custom_textField img{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+  /* .search_custom_focusp_img{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-left:10px;
+        margin-bottom:45px;
+        transition: all 0.2s ease 0s;
+        position:absolute;
+    }
+
+    .search_custom_nonfocusp_img{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-left:10px;
+        transition: all 0.2s ease 0s;
+        position:absolute;
+    } */
+ 
+  
+  .search_custom_nonfocusp{
+    font-family: 'Poppins';
+    position:absolute;
+    margin: 0px 30px;
+    background: white;
+    padding: 0 3px;
+    transition: all 0.2s ease 0s;
+    font-size: 16px;
+  }
+  .search_custom_focusp {
+    font-family: 'Poppins-SemiBold';
+    position:absolute;
+    margin: 0px 30px;
+    margin-bottom:45px;
+    background: white;
+    border-radius: 30px;
+    padding: 0 3px;
+    transition: all 0.2s ease 0s;
+    font-size: 12px;
+    /* color: #1976d2; */
+  }
+
+  .search_custom_textField input{
+    margin: 10px;
+    margin-left: 4px;
+    border: 1px;
+    outline: 1px;
+    box-shadow: 1px;
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: 'Poppins';
+    font-size: 16px;
+  }
+  .search_custom_textField input:focus {
+    margin-right: 20px;
+  }  
+
+  .search_custom_textField textarea{
+    margin: 10px;
+    border: 1px;
+    outline: 1px;
+    box-shadow: 1px;
+    background: transparent;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+    font-family: 'Poppins';
+    font-size: 16px;
+  }
+  .search_custom_textField textarea:focus {
+    margin-right: 20px;
+  } 
+
+  @media only screen and (max-width: 380px){
+      .search_custom_focusp{
+          display: none;
+      }
+      .search_custom_nonfocusp{
+        display: none;
+      }
+  }

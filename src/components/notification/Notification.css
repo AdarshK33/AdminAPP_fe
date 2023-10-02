@@ -1,0 +1,245 @@
+.customNotification{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fullNotifContainer{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.notifContainer{
+  z-index: 6;
+  position: absolute;
+  /* border: 1px solid; */
+  background: white;
+  right: -30px;
+  top: 10px;
+  padding: 10px 10px 0px 10px;
+  border-radius: 12px;
+  border-top-right-radius: 0px;
+  box-shadow: 0 5px 15px 2px rgb(64 70 74 / 20%);
+  /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
+}
+.nodtiAllConts{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  max-height: 35vh;
+  min-height: 5vh;
+  overflow-x: hidden;
+  border-bottom: 0.5px solid rgba(170, 170, 170, 0.349);
+}
+.nottablecont{
+  padding: 10px;
+}
+
+.notifFluid{
+  display: flex;
+}
+
+.nottableimgdata{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height:20px;
+}
+.notifCont{
+  display: flex;
+  /* border-bottom: 0.5px solid rgba(170, 170, 170, 0.349); */
+  width: max-content;
+  padding: 10px;
+  cursor: pointer;
+  width: 95%;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.notifCont:hover{
+  background: #c4c4c442;
+  transition: all 0.2s ease;
+}
+.nottableimgdata {
+  padding-left: 0px;
+}
+.nottableimgdata img{
+  /* border: 1px solid rgba(17, 15, 15, 0.26); */
+  border-radius: 10px;
+  background: #fff;
+  padding: 3px;
+  width: 20px;
+}
+
+
+
+
+.notifSenderName p {
+  font-family: 'Poppins-SemiBold';
+  font-size: 14px;
+  color: #333;
+  line-height: 5px;
+}
+.notifSenderTime{
+  flex: 1;
+}
+.notifSenderTime p {
+  font-family: 'Poppins';
+  font-size: 12px;
+  color: #aaa;
+  line-height: 5px;
+}
+
+.readAllNotif p {
+  font-family: 'Poppins-Medium';
+  margin: 4px;
+  text-align: center;
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+/* new css */
+
+.notifSenderName p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 0px;
+  font-size: 13px;
+}
+.notifSenderTime p {
+  font-size: 11px;
+  color: #74788d;
+}
+.notifCont:hover {
+  background: #f6f6f6;
+}
+#notifimageavatar img{border-radius: 12px;}
+.readAllNotif{padding: 10px;}
+.readAllNotif p:hover{color: #5E35B2;}
+
+
+/* media query  */
+@media(max-width:300px){
+  .notifContainer{
+    width: 30vw;
+  }
+  #notifimageavatar img{
+    padding: 0px;
+    width: 10px;
+  }
+  .readAllNotif p {
+    font-family: 'Poppins-Medium';
+    margin: 2px;
+    font-size: 8px;
+  }
+  .notifSenderName p {
+    font-family: 'Poppins-SemiBold';
+    font-size: 10px;
+  }
+  .notifSenderTime p {
+    font-size: 10px;
+  }
+}
+
+@media(min-width:300px){
+  .notifContainer{
+    width: 60vw;
+  }
+  #notifimageavatar img{
+    padding: 0px;
+    width: 10px;
+  }
+  .readAllNotif p {
+    font-family: 'Poppins-Medium';
+    margin: 2px;
+    font-size: 10px;
+  }
+  .notifSenderName p {
+    font-family: 'Poppins-SemiBold';
+    font-size: 12px;
+  }
+  .notifSenderTime p {
+    font-size: 10px;
+  }
+}
+
+@media(min-width:500px){
+  .notifContainer{
+    width: 30vw;
+  }
+  #notifimageavatar img{
+    padding: 0px;
+    width: 18px;
+  }
+  .readAllNotif p {
+    font-family: 'Poppins-Medium';
+    margin: 2px;
+    font-size: 12px;
+  }
+  .notifSenderName p {
+    font-family: 'Poppins-SemiBold';
+    font-size: 12px;
+  }
+  .notifSenderTime p {
+    font-size: 12px;
+  }
+}
+
+@media(min-width:900px){
+  .notifContainer{
+    width: 25vw;
+  }
+  #notifimageavatar img{
+    padding: 0px;
+    width: 20px;
+  }
+  .readAllNotif p {
+    font-family: 'Poppins-Medium';
+    margin: 2px;
+    font-size: 14px;
+  }
+  .notifSenderName p {
+    font-family: 'Poppins-SemiBold';
+    font-size: 14px;
+  }
+  .notifSenderTime p {
+    font-size: 12px;
+  }
+}
+
+/* 
+@media(min-width:768px){
+  .login-sec{
+      min-width: 270px;
+      padding: 25px;
+  }
+}
+@media(min-width:1024px){
+  .login-sec{
+      min-width: 320px;
+      padding: 40px;
+  }
+}
+@media(min-width:1440px){
+  .login-sec{
+      min-width: 320px;
+      padding: 40px;
+  }
+}
+@media(min-width:1440px){
+  .login-sec{
+      min-width: 350px;
+      padding: 60px;
+  }
+}
+@media(min-width:2560px){
+  .login-sec{
+      min-width: 450px;
+      padding: 60px;
+  }
+} */

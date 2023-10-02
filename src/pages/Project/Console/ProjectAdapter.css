@@ -1,0 +1,24 @@
+.project_custDragInnerItems {
+    display: flex;
+    justify-content: space-around;
+}
+.project_custDragitemMain{
+    flex: 1;
+}
+.project_dragcreationTime p {
+    font-size: 11px;
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.466);
+}
+.project_dragcreationCont p{
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.644);
+}
+.project_dragcreationTo p {
+    font-size: 11px;
+    margin: 2px 0;
+    color: rgba(0, 0, 0, 0.466);
+    text-align: end;
+}

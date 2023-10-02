@@ -1,0 +1,36 @@
+.dailyUpdateTask{
+    border:1px solid transparent;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top-color: rgba(102, 102, 102, 0.363);
+}
+.todaysupdateext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.todaysupdatedby{
+    font-size: 10px;
+    font-family: 'Poppins';
+}
+.todaysupdate{
+    position: absolute;
+    margin-top: -25px;
+    background: #fff;
+    margin-left: 20px;
+    padding: 0 10px;
+    color: rgba(102, 102, 102, 0.74);
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+}
+.todaysupdateextracheck{
+    display: flex;
+    align-items: center;
+}
+.todaysupdateextracheck img{
+    width: 16px;
+    height: 16px;
+    margin: 0 4px;
+}

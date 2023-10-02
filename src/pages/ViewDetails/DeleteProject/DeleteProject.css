@@ -1,0 +1,20 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn-yes, .btn-no {
+    padding: 10px 20px;
+    border: none;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .btn-no {
+    background-color: #d9534f;
+  }

@@ -1,0 +1,32 @@
+.customDragContainerMain{
+    display: flex;
+    overflow: hidden;
+    /* overflow: scroll; */
+}
+.customDragContainer{
+    display: flex;
+    justify-content: space-around;
+    background:transparent;
+    flex: 1;
+}
+.custDragColumn{
+    flex: 1;
+    border-radius: 20px;
+    margin: 2px;
+}
+.custDragItems{
+    border-radius: 20px;
+    box-shadow: -8px 12px 18px 0 #dadee8;
+}
+
+.custDragColumnCont{
+    flex: 1;
+}
+.custDragColHead{
+    font-family: 'Poppins-SemiBold';
+    margin: 0 20px;
+    font-size: 14px;
+    color: rgba(102, 102, 102, 0.877);
+}
+
+

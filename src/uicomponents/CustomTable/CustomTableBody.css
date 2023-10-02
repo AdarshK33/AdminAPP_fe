@@ -1,0 +1,88 @@
+ 
+ .tableBodyPart{
+    border: 0.2px solid rgba(0, 0, 0, 0.158);
+    border-top: 0px;
+    display: flex;
+    overflow: scroll;
+ }
+ .tableBodyPart::-webkit-scrollbar:vertical {
+   display: none;
+ }
+ .tableBodyPart::-webkit-scrollbar:horizontal {
+   display: none;
+ }
+
+.tableData .tablecont{
+    padding: 13px;
+}
+.tableimgdata{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height:20px;
+}
+ .tableimgdata img{
+    border: 1px solid rgba(17, 15, 15, 0.26);
+    border-radius: 10px;
+    background: #fff;
+    padding: 3px;
+    width: 20px;
+ }
+
+ .tableimgdataction{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   height:20px;
+}
+
+ .tableimgdataction img{
+   padding: 3px;
+   width: 30px;
+}
+ .tabletextdata{
+    padding: 0;
+    margin: 0;
+    height:20px;
+ }
+ .tabletextdata p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: small;
+ }
+ .tablelabel{
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.171);
+ }
+ .tablelabel p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .tablelabelbottomline{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* border: 1px solid; */
+ }
+ .tablelabelbottomline .labellineinnerspace{
+    position: absolute;
+    height: 40px;
+    border: 1px solid;
+ }
+ .tableColumn{
+    flex: 1;
+ }
+
+ .eye-icon{
+   margin-right:10px;
+ }
+
+ .tablecont.tabletextdata.active-project {
+   text-align: center;
+}
+
+.tablecont.tabletextdata.tablelabel.actions {
+   text-align: center;
+}
